@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
-import styles from '../styles/AddSchool.module.css';
+import styles from '../styles/addschool.module.css';
 
 export default function AddSchool() {
   const { register, handleSubmit, formState: { errors }, setValue } = useForm();
